@@ -1,0 +1,11 @@
+@use 'tailwindcss/base';
+@use 'tailwindcss/utilities';
+@use 'tailwindcss/components';
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffff;
+  font-family: 'Libre Baskerville', sans-serif;
+}
