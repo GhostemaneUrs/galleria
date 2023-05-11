@@ -16,6 +16,9 @@ module.exports = {
           80: '#E5E5E5',
           70: '#F3F3F3'
         }
+      },
+      gridTemplateRows: {
+        gallery: '1fr 0.81fr 1fr 0.81fr 1fr'
       }
     }
   },
