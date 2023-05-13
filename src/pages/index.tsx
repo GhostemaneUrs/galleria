@@ -19,26 +19,26 @@ const Home = () => {
   )
 
   return (
-    <div className='columns-4 gap-5 mb-10'>
+    <div className='columns-1 sm:columns-2 xl:columns-3 2xl:columns-4 sm:gap-5 mb-10'>
       {data?.galleries.map((item: Gallery) => {
         return (
           <div
             key={item?.id}
-            className='w-full break-inside-avoid mb-5 relative'
+            className='w-full h-full break-inside-avoid mb-6 relative cursor-pointer hover:scale-110 transition-all duration-300'
           >
             <Image
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               alt={item?.name}
-              src={item?.gallery}
-              className='w-full h-full object-contain'
+              src={item?.images.gallery}
+              className='w-full h-full object-contain object-center'
             />
-            <div className='w-full flex flex-col justify-end items-start p-4 max-w-[346px] absolute inset-0'>
+            <div className='w-full flex flex-col justify-end items-start p-4 absolute inset-0 bg-gradient'>
               <span className='text-white text-2xl font-bold'>
                 {item?.name}
               </span>
               <span className='text-white opacity-70 text-sm'>
-                {item?.artist}
+                {item?.artist.name}
               </span>
             </div>
           </div>
