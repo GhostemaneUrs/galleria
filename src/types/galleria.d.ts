@@ -1,13 +1,6 @@
 interface Gallery {
   id: number
   name: string
-  artist: string
-  gallery: string
-}
-
-interface DetailGallery {
-  id: number
-  name: string
   year: number
   source: string
   artist: Artist
@@ -30,8 +23,6 @@ type Artist = {
   name: string
   image: string
 }
-
-export type Galleries = Gallery[]
 
 export type ResponsiveGallery = {
   skip: number
