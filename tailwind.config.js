@@ -17,8 +17,9 @@ module.exports = {
           70: '#F3F3F3'
         }
       },
-      gridTemplateRows: {
-        gallery: '1fr 0.81fr 1fr 0.81fr 1fr'
+      backgroundImage: {
+        gradient:
+          'linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.841672) 100%);'
       }
     }
   },
