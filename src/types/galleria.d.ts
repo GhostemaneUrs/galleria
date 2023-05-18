@@ -1,4 +1,12 @@
-interface Gallery {
+import { PropsWithChildren } from 'react'
+
+export interface Gallery {
+  id: number
+  name: string
+  artist: string
+  gallery: string
+}
+export interface DetailGallery {
   id: number
   name: string
   year: number
@@ -24,10 +32,18 @@ type Artist = {
   image: string
 }
 
-export type ResponsiveGallery = {
+export type ResponseGallery = {
   skip: number
   limit: number
   totalRows: number
   totalPages: number
-  galleries: Gallery[]
+  data: Gallery[]
+}
+
+export interface GalleryContextType {
+  galleries: null | Gallery[]
+}
+
+export interface GalleriesProviderType {
+  children: PropsWithChildren<React.ReactNode>
 }
