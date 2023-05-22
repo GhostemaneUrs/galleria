@@ -1,4 +1,5 @@
 import { ResponseGallery } from '@/type/galleria'
+import { URL_GATEWAY } from '@/constant/environment'
 import { useState, createContext, useEffect } from 'react'
 
 const initialState: ResponseGallery = {
