@@ -64,27 +64,27 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   }
 
   return (
-    <div className='w-full flex flex-col h-[calc(100vh-94px)]'>
-      <div className='flex-1-auto w-full mb-10 flex justify-center items-center h-full'>
+    <div className='w-full flex flex-col lg:h-[calc(100vh-94px)] overflow-x-hidden'>
+      <div className='flex-1-auto w-full mb-6 xl:mb-10 flex justify-center items-center h-full'>
         <AnimatePresence mode='wait'>
           <motion.div
             key={gallery?.id}
             exit={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            className='w-full flex justify-between h-full items-center'
-            transition={{ duration: 0.4, ease: 'easeInOut' }}
+            className='w-full h-full flex flex-col gap-5 lg:gap-20 xl:flex-row xl:gap-0 xl:justify-between xl:items-center'
+            transition={{ duration: 0.35, ease: 'easeInOut' }}
           >
-            <div className='w-full flex relative max-w-[720px] h-full'>
+            <div className='w-full flex relative xl:max-w-[720px] h-auto'>
               <Image
-                priority
                 width={500}
-                height={540}
+                height={500}
+                priority={false}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
-                className='w-full h-auto object-cover max-w-[480px]'
+                className='w-full h-auto object-cover max-w-[400px] lg:max-w-[350px] xl:max-w-[470px]'
               />
-              <div className='w-full max-w-[390px] bg-white absolute -right-[110px] pl-14 py-16 flex flex-col gap-3'>
+              <div className='bg-white w-full max-w-[500px] xl:max-w-[400px] flex flex-col pl-5 py-5 gap-3 absolute left-[250px] xl:pl-14 xl:py-16 xl:-right-[80px]'>
                 <span className='text-5xl text-black font-bold'>
                   {gallery?.name}
                 </span>
@@ -92,7 +92,12 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   {gallery?.artist?.name}
                 </span>
               </div>
-              <div className='flex w-full absolute -bottom-[30px] right-0 max-w-[220px]'>
+              <div className='w-full z-10 hidden lg:flex xl:hidden absolute bottom-0 right-0 max-w-[500px]'>
+                <p className='text-[#7D7D7D] text-base font-bold'>
+                  {gallery?.description}
+                </p>
+              </div>
+              <div className='w-full max-w-[128px] absolute flex right-0 xl:-bottom-[20px] xl:right-[80px]'>
                 <Image
                   width={128}
                   height={128}
@@ -102,14 +107,14 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 />
               </div>
             </div>
-            <div className='w-full flex flex-col justify-center items-center relative max-w-[390px] xl:max-w-[500px] '>
-              <div className='w-full text-start xl:text-right'>
-                <span className='text-[160px] 2xl:text-[200px] text-[#F3F3F3] leading-none'>
+            <div className='w-full flex lg:hidden xl:flex xl:flex-col justify-center items-start xl:max-w-[450px] xl:gap-8 '>
+              <div className='w-full xl:text-end hidden xl:block'>
+                <span className='text-[200px] xl:text-[200px] text-[#F3F3F3] leading-none'>
                   {gallery?.year}
                 </span>
               </div>
-              <div className='w-full max-w-[450px] z-10 relative'>
-                <p className='text-[#7D7D7D] text-base font-bold leading-7'>
+              <div className='w-full z-10'>
+                <p className='text-[#7D7D7D] text-lg xl:text-base font-bold'>
                   {gallery?.description}
                 </p>
               </div>
@@ -117,7 +122,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
           </motion.div>
         </AnimatePresence>
       </div>
-      <footer className='flex w-full items-center justify-center border-t solid border-gray-80 py-4 relative'>
+      <footer className='flex w-full items-center justify-center border-t solid border-gray-80 py-2 xl:py-4 relative'>
         <div className='w-full flex flex-col justify-center'>
           <span className='text-lg text-black'>{gallery?.name}</span>
           <span className='text-sm text-black opacity-75'>
