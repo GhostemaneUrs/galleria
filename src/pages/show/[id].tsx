@@ -64,7 +64,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   }
 
   return (
-    <div className='w-full flex flex-col lg:h-[calc(100vh-94px)] overflow-x-hidden'>
+    <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] overflow-x-hidden'>
       <div className='flex-1-auto w-full mb-6 xl:mb-10 flex justify-center items-center h-full'>
         <AnimatePresence mode='wait'>
           <motion.div
@@ -72,19 +72,39 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
             exit={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            className='w-full h-full flex flex-col gap-5 lg:gap-20 xl:flex-row xl:gap-0 xl:justify-between xl:items-center'
+            className='w-full h-full flex flex-col justify-center  gap-28 mg:gap-36 lg:gap-20 xl:flex-row xl:gap-0 xl:justify-between xl:items-center'
             transition={{ duration: 0.35, ease: 'easeInOut' }}
           >
-            <div className='w-full flex relative xl:max-w-[720px] h-auto'>
+            <div className='w-full flex flex-col lg:flex-row relative xl:max-w-[720px] h-auto'>
               <Image
-                width={500}
-                height={500}
+                width={600}
+                height={600}
                 priority={false}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
-                className='w-full h-auto object-cover max-w-[400px] lg:max-w-[350px] xl:max-w-[470px]'
+                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[470px]'
               />
-              <div className='bg-white w-full max-w-[500px] xl:max-w-[400px] flex flex-col pl-5 py-5 gap-3 absolute left-[250px] xl:pl-14 xl:py-16 xl:-right-[80px]'>
+              <div className='flex bg-white w-full max-w-[300px] sm:max-w-[350px] md:max-w-[600px] gap-2 p-4 absolute bottom-[-80px] lg:hidden'>
+                <div className='flex flex-col w-full'>
+                  <span className='text-2xl md:text-5xl text-black font-bold'>
+                    {gallery?.name}
+                  </span>
+                  <span className='text-sm md:text-base text-[#7D7D7D]'>
+                    {gallery?.artist?.name}
+                  </span>
+                </div>
+                <Image
+                  width={80}
+                  height={80}
+                  alt={gallery?.artist?.name}
+                  src={gallery?.artist?.image}
+                  className='w-full max-w-[80px] h-full max-h-[80px] object-cover'
+                />
+              </div>
+              <div
+                className='bg-white w-full max-w-[500px] xl:max-w-[400px] hidden lg:flex flex-col pl-5 py-5 gap-3 absolute lg:right-[200px] xl:pl-14 xl:py-16
+               xl:right-[-80px]'
+              >
                 <span className='text-5xl text-black font-bold'>
                   {gallery?.name}
                 </span>
@@ -92,12 +112,12 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   {gallery?.artist?.name}
                 </span>
               </div>
-              <div className='w-full z-10 hidden lg:flex xl:hidden absolute bottom-0 right-0 max-w-[500px]'>
-                <p className='text-[#7D7D7D] text-base font-bold'>
+              <div className='w-full z-10 hidden lg:flex xl:hidden absolute bottom-0 right-0 lg:max-w-[500px] xl:max-w-[400px] text-justify'>
+                <p className='text-[#7D7D7D] text-base font-bold '>
                   {gallery?.description}
                 </p>
               </div>
-              <div className='w-full max-w-[128px] absolute flex right-0 xl:-bottom-[20px] xl:right-[80px]'>
+              <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[20px] xl:right-[110px]'>
                 <Image
                   width={128}
                   height={128}
@@ -113,7 +133,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   {gallery?.year}
                 </span>
               </div>
-              <div className='w-full z-10'>
+              <div className='w-full z-10 text-justify'>
                 <p className='text-[#7D7D7D] text-lg xl:text-base font-bold'>
                   {gallery?.description}
                 </p>
