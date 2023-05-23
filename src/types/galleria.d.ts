@@ -41,7 +41,8 @@ export type ResponseGallery = {
 }
 
 export interface GalleryContextType {
-  galleries: null | Gallery[]
+  loading: boolean
+  galleries: ResponseGallery
 }
 
 export interface GalleriesProviderType {
