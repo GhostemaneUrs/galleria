@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation'
 export const Header = () => {
   const pathname = usePathname()
   return (
-    <div className='w-full px-4 pt-3 m-auto max-w-[1440px] mb-[20px]'>
+    <div className='w-full px-4 pt-4 m-auto max-w-[1440px] mb-4'>
       <header className='flex justify-between items-center mb-5'>
         <h1 className='text-black text-4xl font-bold'>galleria.</h1>
         <Link
