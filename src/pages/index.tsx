@@ -5,7 +5,7 @@ import { useGalleries } from '@/hook/useGalleries'
 
 const Home = () => {
   const router = useRouter()
-  const galleries = useGalleries()
+  const { galleries, loading } = useGalleries()
 
   return (
     <div className='columns-1 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 sm:gap-5 mb-10'>
