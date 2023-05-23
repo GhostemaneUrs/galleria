@@ -1,35 +1,45 @@
-import { ResponseGallery } from '@/type/galleria'
-import { URL_GATEWAY } from '@/constant/environment'
 import { useState, createContext, useEffect } from 'react'
+import {
+  ResponseGallery,
+  GalleryContextType,
+  GalleriesProviderType
+} from '@/type/galleria'
 
-const initialState: ResponseGallery = {
-  skip: 0,
-  limit: 0,
-  data: [],
-  totalRows: 0,
-  totalPages: 0
+const initialState: GalleryContextType = {
+  loading: false,
+  galleries: {} as ResponseGallery
 }
 
 export const GalleryContext = createContext(initialState)
 
-export const GalleryProvider = ({ children }: any): JSX.Element => {
-  const [galleries, setGallery] = useState<ResponseGallery>(initialState)
+export const GalleryProvider = ({
+  children
+}: GalleriesProviderType): JSX.Element => {
+  const [loading, setLoading] = useState<boolean>(false)
+  const [galleries, setGalleries] = useState<ResponseGallery>(
+    initialState.galleries
+  )
 
   useEffect(() => {
+    setLoading(true)
     fetch('/api/galleries', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
       }
-    }).then(res => {
-      res.json().then(data => {
-        setGallery(data)
-      })
     })
+      .then(res => res.json())
+      .then((data: ResponseGallery) => {
+        setGalleries(data)
+        setLoading(false)
+      })
+      .catch(error => {
+        setLoading(false)
+      })
   }, [])
 
   return (
-    <GalleryContext.Provider value={galleries}>
+    <GalleryContext.Provider value={{ galleries, loading }}>
       {children}
     </GalleryContext.Provider>
   )
