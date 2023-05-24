@@ -65,7 +65,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
 
   return (
     <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] overflow-x-hidden'>
-      <div className='flex-1-auto w-full mb-6 xl:mb-10 flex justify-center items-center h-full'>
+      <div className='flex-1-auto w-full mb-6 2xl:mb-10 flex justify-center items-center h-full'>
         <AnimatePresence mode='wait'>
           <motion.div
             key={gallery?.id}
@@ -82,7 +82,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 priority={false}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
-                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[470px]'
+                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[425px] 2xl:max-w-[470px]'
               />
               <div className='flex bg-white w-full max-w-[300px] sm:max-w-[350px] md:max-w-[600px] gap-2 p-4 absolute bottom-[-80px] lg:hidden'>
                 <div className='flex flex-col w-full'>
@@ -103,7 +103,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
               </div>
               <div
                 className='bg-white w-full max-w-[500px] xl:max-w-[400px] hidden lg:flex flex-col pl-5 py-5 gap-3 absolute lg:right-[200px] xl:pl-14 xl:py-16
-               xl:right-[-80px]'
+               xl:right-[-60px] 2xl:right-[-80px]'
               >
                 <span className='text-5xl text-black font-bold'>
                   {gallery?.name}
@@ -117,7 +117,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   {gallery?.description}
                 </p>
               </div>
-              <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[20px] xl:right-[110px]'>
+              <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[10px] 2xl:-bottom-[20px] xl:right-[150px] 2xl:right-[110px]'>
                 <Image
                   width={128}
                   height={128}
@@ -142,7 +142,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
           </motion.div>
         </AnimatePresence>
       </div>
-      <footer className='flex w-full items-center justify-center border-t solid border-gray-80 py-2 xl:py-4 relative'>
+      <footer className='flex w-full items-center justify-center border-t solid border-gray-80 py-2 2xl:py-4 relative'>
         <div className='w-full flex flex-col justify-center'>
           <span className='text-lg text-black'>{gallery?.name}</span>
           <span className='text-sm text-black opacity-75'>
