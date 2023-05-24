@@ -82,7 +82,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 priority={false}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
-                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[425px] 2xl:max-w-[470px]'
+                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[390px] 2xl:max-w-[470px]'
               />
               <div className='flex bg-white w-full max-w-[300px] sm:max-w-[350px] md:max-w-[600px] gap-2 p-4 absolute bottom-[-80px] lg:hidden'>
                 <div className='flex flex-col w-full'>
@@ -103,7 +103,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
               </div>
               <div
                 className='bg-white w-full max-w-[500px] xl:max-w-[400px] hidden lg:flex flex-col pl-5 py-5 gap-3 absolute lg:right-[200px] xl:pl-14 xl:py-16
-               xl:right-[-60px] 2xl:right-[-80px]'
+               xl:right-[-30px] 2xl:right-[-80px]'
               >
                 <span className='text-5xl text-black font-bold'>
                   {gallery?.name}
@@ -117,7 +117,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   {gallery?.description}
                 </p>
               </div>
-              <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[10px] 2xl:-bottom-[20px] xl:right-[150px] 2xl:right-[110px]'>
+              <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[10px] 2xl:-bottom-[20px] xl:right-[190px] 2xl:right-[110px]'>
                 <Image
                   width={128}
                   height={128}
@@ -127,9 +127,9 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 />
               </div>
             </div>
-            <div className='w-full flex lg:hidden xl:flex xl:flex-col justify-center items-start xl:max-w-[450px] xl:gap-8 '>
+            <div className='w-full flex lg:hidden xl:flex xl:flex-col justify-center items-start xl:max-w-[450px] gap-2 2xl:gap-8 '>
               <div className='w-full xl:text-end hidden xl:block'>
-                <span className='text-[200px] xl:text-[200px] text-[#F3F3F3] leading-none'>
+                <span className='text-[150px] xl:text-[180px] 2xl:text-[200px] text-[#F3F3F3] leading-none'>
                   {gallery?.year}
                 </span>
               </div>
