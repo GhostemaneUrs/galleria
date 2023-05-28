@@ -138,7 +138,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 </p>
               </div>
             </div>
-            <audio ref={audioRef} autoPlay loop>
+            <audio ref={audioRef} autoPlay={isPlaying} loop>
               <source src={gallery?.music} type='audio/mp3' />
             </audio>
           </motion.div>
