@@ -19,10 +19,6 @@ export async function getServerSideProps(
 ): Promise<{ props: { gallery: DetailGallery } }> {
   const id = context.params?.id
 
-  if (id === null) {
-    throw new Error('Id not found in URL parameters')
-  }
-
   const response = await fetch(`${URL_GATEWAY}/api/gallery?id=${String(id)}`, {
     method: 'GET',
     headers: {
@@ -43,23 +39,20 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   const router = useRouter()
   const { galleries } = useGalleries()
   const audioRef = useRef<HTMLAudioElement>(null)
-  const [isPlaying, setIsPlaying] = useState<boolean>(false)
+  const [isPlaying, setIsPlaying] = useState(true)
 
   const handleNextPage = () => {
     const currentId = Number(router.query.id) || 1
     if (currentId === galleries?.totalRows) {
       router.push('/show/1')
-      setIsPlaying(false)
     } else {
       router.push(`/show/${currentId + 1}`)
-      setIsPlaying(false)
     }
   }
 
   const handlePreviosPage = () => {
     const currentId = Number(router.query.id) || 1
     if (currentId !== 1) router.push(`/show/${currentId - 1}`)
-    setIsPlaying(false)
   }
 
   const calculateProgress = () => {
@@ -145,7 +138,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 </p>
               </div>
             </div>
-            <audio ref={audioRef} loop>
+            <audio ref={audioRef} autoPlay loop>
               <source src={gallery?.music} type='audio/mp3' />
             </audio>
           </motion.div>
