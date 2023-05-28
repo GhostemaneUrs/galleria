@@ -5,16 +5,15 @@
     "year": 1889,
     "description": "Although The Starry Night was painted during the day in Van Gogh's ground-floor studio, it would be inaccurate to state that the picture was painted from memory. The view has been identified as the one from his bedroom window, facing east, a view which Van Gogh painted variations of no fewer than twenty-one times, including The Starry Night. \"Through the iron-barred window,\" he wrote to his brother, Theo, around 23 May 1889, \"I can see an enclosed square of wheat ... above which, in the morning, I watch the sun rise in all its glory.\"",
     "artist": {
-      "image": "/images/starry-night/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/starry-night%2Fartist.jpg?alt=media&token=2e1c0be0-f72b-4639-b57a-6f8cc1b1a0bb",
       "name": "Vincent Van Gogh"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/starry-night%2Fmusic.mp3?alt=media&token=ed68519b-866f-4b3e-b079-d069c3ac8a0e",
     "images": {
-      "thumbnail": "/images/starry-night/thumbnail.jpg",
       "hero": {
-        "small": "/images/starry-night/hero-small.jpg",
-        "large": "/images/starry-night/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/starry-night%2Fhero-large.jpg?alt=media&token=3c547b29-055f-4aed-abc7-a8c1d7b6d327"
       },
-      "gallery": "/images/starry-night/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/starry-night%2Fgallery.jpg?alt=media&token=f7707b5d-519d-46e9-a00b-7dbf1a775d27"
     }
   },
   {
@@ -23,16 +22,15 @@
     "year": 1665,
     "description": "The painting is a tronie, the Dutch 17th-century description of a 'head' that was not meant to be a portrait. It depicts a European girl wearing an exotic dress, an oriental turban, and what was thought to be a very large pearl as an earring. In 2014, Dutch astrophysicist Vincent Icke raised doubts about the material of the earring and argued that it looks more like polished tin than pearl on the grounds of the specular reflection, the pear shape and the large size of the earring.",
     "artist": {
-      "image": "/images/girl-with-pearl-earring/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/girl-with-pearl-earring%2Fartist.jpg?alt=media&token=8c202c67-fb12-4580-bad2-4210ac70121c",
       "name": "Johannes Vermeer"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/girl-with-pearl-earring%2Fmusic.mp3?alt=media&token=a39055d8-4243-4e98-83da-85253b336d2e",
     "images": {
-      "thumbnail": "/images/girl-with-pearl-earring/thumbnail.jpg",
       "hero": {
-        "small": "/images/girl-with-pearl-earring/hero-small.jpg",
-        "large": "/images/girl-with-pearl-earring/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/girl-with-pearl-earring%2Fhero-large.jpg?alt=media&token=cd8800f9-d880-4667-86a4-b07d3152f783"
       },
-      "gallery": "/images/girl-with-pearl-earring/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/girl-with-pearl-earring%2Fgallery.jpg?alt=media&token=eb80273d-8b50-49ee-bdd4-ef578b480b57"
     }
   },
   {
@@ -41,16 +39,15 @@
     "year": 1937,
     "description": "The scene occurs within a room where, on the left, a wide-eyed bull stands over a grieving woman holding a dead child in her arms. In the center of the room a horse falls in agony with a large gaping hole in its side, as if it had just been run through by a spear or javelin. The horse appears to be wearing chain mail armor, decorated with vertical tally marks arranged in rows. A dead and dismembered soldier lies under the horse. The hand of his severed right arm grasps a shattered sword, from which a flower grows.",
     "artist": {
-      "image": "/images/guernica/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/guernica%2Fartist.jpg?alt=media&token=16bf3cb0-b940-46c6-93ce-f8ded58f93e8",
       "name": "Pablo Picasso"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/guernica%2Fmusic.mp3?alt=media&token=3e09df7e-75b2-43a0-a535-8d1af2f8a629",
     "images": {
-      "thumbnail": "/images/guernica/thumbnail.jpg",
       "hero": {
-        "small": "/images/guernica/hero-small.jpg",
-        "large": "/images/guernica/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/guernica%2Fhero-large.jpg?alt=media&token=93319825-4086-4a6f-9c44-1e8176ff81bf"
       },
-      "gallery": "/images/guernica/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/guernica%2Fgallery.jpg?alt=media&token=b5f6dc92-6455-489b-befd-d7a500d0398d"
     }
   },
   {
@@ -59,16 +56,15 @@
     "year": 1625,
     "description": "Penitent Magdalene is a painting by the Italian artist Artemisia Gentileschi. It hangs in Seville Cathedral. It has probably been in the cathedral since the late 17th century. The painting's first home was the collection of Fernando Enriquez Afan de Ribera, from 1626 to 1637. She returned to the subject later in the 1620s in Mary Magdalene as Melancholy.",
     "artist": {
-      "image": "/images/penitent-magdalene/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/penitent-magdalene%2Fartist.jpg?alt=media&token=f55c8aca-9d4e-4467-b289-6c1e193b0256",
       "name": "Artemisia Gentileschi"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/penitent-magdalene%2Fmusic.mp3?alt=media&token=3b75dd53-5294-4788-967b-b16c515edcae",
     "images": {
-      "thumbnail": "/images/penitent-magdalene/thumbnail.jpg",
       "hero": {
-        "small": "/images/penitent-magdalene/hero-small.jpg",
-        "large": "/images/penitent-magdalene/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/penitent-magdalene%2Fhero-large.jpg?alt=media&token=a5f2a29c-50d1-43f3-a003-48c2c1f4ee6a"
       },
-      "gallery": "/images/penitent-magdalene/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/penitent-magdalene%2Fgallery.jpg?alt=media&token=60ebb033-07bb-42a4-b156-283fceb4e981"
     }
   },
   {
@@ -77,16 +73,15 @@
     "year": 1633,
     "description": "The painting, in vertical format, shows a close-up view of Christ's disciples struggling frantically against the heavy storm to regain control of their fishing boat. A huge wave beats the bow and rips the sail. One of the disciples is seen vomiting over the side. Another one, looking directly out at the viewer, is a self-portrait of the artist. Only Christ, depicted on the right, remains calm.",
     "artist": {
-      "image": "/images/the-storm-on-the-sea-of-galilee/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-storm-on-the-sea-of-galilee%2Fartist.jpg?alt=media&token=b9ffea95-f7d3-4f86-8d90-7f1c086dee04",
       "name": "Rembrandt"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-storm-on-the-sea-of-galilee%2Fmusic.mp3?alt=media&token=9a4e9e76-66c6-432b-947a-45bbec9f2b04",
     "images": {
-      "thumbnail": "/images/the-storm-on-the-sea-of-galilee/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-storm-on-the-sea-of-galilee/hero-small.jpg",
-        "large": "/images/the-storm-on-the-sea-of-galilee/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-storm-on-the-sea-of-galilee%2Fhero-large.jpg?alt=media&token=c9be9e80-aaa5-4922-838f-1d9f76f7acad"
       },
-      "gallery": "/images/the-storm-on-the-sea-of-galilee/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-storm-on-the-sea-of-galilee%2Fgallery.jpg?alt=media&token=4f1f73ce-54e8-4e32-aec0-fef640b73567"
     }
   },
   {
@@ -95,16 +90,15 @@
     "year": 1831,
     "description": "The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn: Kanagawa-oki Nami Ura, lit. \"Under the Wave off Kanagawa\"), also known as The Great Wave or simply The Wave, is a woodblock print by the Japanese ukiyo-e artist Hokusai. It was published sometime between 1829 and 1833 in the late Edo period as the first print in Hokusai's series Thirty-six Views of Mount Fuji. The image depicts an enormous wave threatening three boats off the coast in the Sagami Bay (Kanagawa Prefecture) while Mount Fuji rises in the background.",
     "artist": {
-      "image": "/images/the-great-wave-off-kanagawa/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-great-wave-off-kanagawa%2Fartist.jpg?alt=media&token=ce492128-675c-4915-af33-ca61be2b8f71",
       "name": "Hokusai"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-great-wave-off-kanagawa%2Fmusic.mp3?alt=media&token=0597e0a7-7342-4cd4-911e-9c040ac414de",
     "images": {
-      "thumbnail": "/images/the-great-wave-off-kanagawa/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-great-wave-off-kanagawa/hero-small.jpg",
-        "large": "/images/the-great-wave-off-kanagawa/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-great-wave-off-kanagawa%2Fhero-large.jpg?alt=media&token=e43a91f5-b0de-4394-b2d3-cec9dd2f3a3d"
       },
-      "gallery": "/images/the-great-wave-off-kanagawa/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-great-wave-off-kanagawa%2Fgallery.jpg?alt=media&token=933a56c3-6a7c-4ec7-b195-18702b1835d2"
     }
   },
   {
@@ -113,16 +107,15 @@
     "year": 1889,
     "description": "This self-portrait was one of about 32 produced over a 10-year period, and these were an important part of his work as a painter; he painted himself because he often lacked the money to pay for models. He took the painting with him to Auvers-sur-Oise, near Paris, where he showed it to Dr. Paul Gachet, who thought it was \"absolutely fanatical\". Art historians are divided as to whether this painting or Self-portrait without beard is Van Gogh's final self-portrait. The art historians Ingo F. Walther and Jan Hulsker consider this to be the last.",
     "artist": {
-      "image": "/images/van-gogh-self-portrait/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/van-gogh-self-portrait%2Fartist.jpg?alt=media&token=03dfa2fa-f067-498b-8cc8-13c855ed74e2",
       "name": "Vincent Van Gogh"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/van-gogh-self-portrait%2Fmusic.mp3?alt=media&token=2f7a6308-b053-466a-9a93-b0aff81d5c03",
     "images": {
-      "thumbnail": "/images/van-gogh-self-portrait/thumbnail.jpg",
       "hero": {
-        "small": "/images/van-gogh-self-portrait/hero-small.jpg",
-        "large": "/images/van-gogh-self-portrait/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/van-gogh-self-portrait%2Fhero-large.jpg?alt=media&token=93655461-9c7c-40e1-b441-ff16d9a0abe7"
       },
-      "gallery": "/images/van-gogh-self-portrait/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/van-gogh-self-portrait%2Fgallery.jpg?alt=media&token=ad5977df-fe19-4d18-a4cc-97ac97abfd6b"
     }
   },
   {
@@ -131,16 +124,15 @@
     "year": 1897,
     "description": "The Sleeping Gypsy (French: La Bohémienne endormie) is an 1897 oil painting by French Naïve artist Henri Rousseau (1844–1910). It is a fantastical depiction of a lion musing over a sleeping woman on a moonlit night. Rousseau first exhibited the painting at the 13th Salon des Indépendants, and tried unsuccessfully to sell it to the mayor of his hometown, Laval. Instead, it entered the private collection of a Parisian charcoal merchant where it remained until 1924, when it was discovered by the art critic Louis Vauxcelles.",
     "artist": {
-      "image": "/images/the-sleeping-gypsy/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-sleeping-gypsy%2Fartist.jpg?alt=media&token=ac1b48ef-eb91-4e42-aa56-03c12cccf16c",
       "name": "Henri Rousseau"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-sleeping-gypsy%2Fmusic.mp3?alt=media&token=d8c6fcea-fda8-44a4-8493-6d7906497b17",
     "images": {
-      "thumbnail": "/images/the-sleeping-gypsy/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-sleeping-gypsy/hero-small.jpg",
-        "large": "/images/the-sleeping-gypsy/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-sleeping-gypsy%2Fhero-large.jpg?alt=media&token=ae9c0eac-87df-44a2-bd34-f3c9cec69c6c"
       },
-      "gallery": "/images/the-sleeping-gypsy/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-sleeping-gypsy%2Fgallery.jpg?alt=media&token=4c55c646-a57b-417d-86d5-62b95cbc09ea"
     }
   },
   {
@@ -149,16 +141,15 @@
     "year": 1489,
     "description": "The Lady with an Ermine (Italian: Dama con l'ermellino [ˈdaːma kon lermelˈliːno]; Polish: Dama z gronostajem) is a portrait painting widely attributed to the Italian Renaissance artist Leonardo da Vinci. Dated to c. 1489–1491, the work is painted in oils on a panel of walnut wood. Its subject is Cecilia Gallerani, a mistress of Ludovico Sforza (\"Il Moro\"), Duke of Milan; Leonardo was painter to the Sforza court at the time of its execution. It is one of only four surviving portraits of women painted by Leonardo, the others being Ginevra de' Benci, La Belle Ferronnière and the Mona Lisa",
     "artist": {
-      "image": "/images/lady-with-an-ermine/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/lady-with-an-ermine%2Fartist.jpg?alt=media&token=8a4b1daa-9cbd-4a8f-8282-95acaa88df90",
       "name": "Leonardo da Vinci"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/lady-with-an-ermine%2Fmusic.mp3?alt=media&token=6205ed0d-e55b-4f77-a7a6-bcab2fff5b2d",
     "images": {
-      "thumbnail": "/images/lady-with-an-ermine/thumbnail.jpg",
       "hero": {
-        "small": "/images/lady-with-an-ermine/hero-small.jpg",
-        "large": "/images/lady-with-an-ermine/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/lady-with-an-ermine%2Fhero-large.jpg?alt=media&token=c4e4b0ef-7367-48ee-883f-b8185a634d00"
       },
-      "gallery": "/images/lady-with-an-ermine/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/lady-with-an-ermine%2Fgallery.jpg?alt=media&token=535d772b-f6ec-4349-90e6-bc7460de9333"
     }
   },
   {
@@ -167,16 +158,15 @@
     "year": 1888,
     "description": "The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too.",
     "artist": {
-      "image": "/images/the-night-cafe/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-night-cafe%2Fartist.jpg?alt=media&token=406c1a21-9e52-447e-905e-9eafc0004da6",
       "name": "Vincent Van Gogh"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-night-cafe%2Fmusic.mp3?alt=media&token=4cf54abf-bc8f-4a39-a522-3ac55a9051f9",
     "images": {
-      "thumbnail": "/images/the-night-cafe/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-night-cafe/hero-small.jpg",
-        "large": "/images/the-night-cafe/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-night-cafe%2Fhero-large.jpg?alt=media&token=00205354-3036-4538-afbc-c7ef517746d5"
       },
-      "gallery": "/images/the-night-cafe/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-night-cafe%2Fgallery.jpg?alt=media&token=5f688ab2-cd1a-4cb6-85f6-3a58a12d1445"
     }
   },
   {
@@ -185,16 +175,15 @@
     "year": 1893,
     "description": "The Basket of Apples (French: Le panier de pommes) is a still life oil painting by French artist Paul Cézanne, which he created c. 1893. The painting is particularly remarkable for its creative composition, which rejected realistic representation in favour of distorting objects to create multiple perspectives. This approach eventually influenced other art movements, including Fauvism and Cubism. It belongs to the Helen Birch Bartlett Memorial Collection of the Art Institute of Chicago.",
     "artist": {
-      "image": "/images/the-basket-of-apples/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-basket-of-apples%2Fartist.jpg?alt=media&token=d60e80c2-95ff-49ce-9bf7-d5eee27b28f6",
       "name": "Paul Cézanne"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-basket-of-apples%2Fmusic.mp3?alt=media&token=c54c1842-78ff-4b20-a302-8a0d2ad31189",
     "images": {
-      "thumbnail": "/images/the-basket-of-apples/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-basket-of-apples/hero-small.jpg",
-        "large": "/images/the-basket-of-apples/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-basket-of-apples%2Fhero-large.jpg?alt=media&token=599f4d6c-c103-4978-bdd9-0982ddfcb0bd"
       },
-      "gallery": "/images/the-basket-of-apples/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-basket-of-apples%2Fgallery.jpg?alt=media&token=1ceb7230-d85c-4897-bd16-7a282f14f0fb"
     }
   },
   {
@@ -203,16 +192,15 @@
     "year": 1889,
     "description": "Cézanne painted four oil portraits of this Italian boy in the red vest, all in different poses, which allowed him to study the relationship between the figure and space. The most famous of the four, and the one commonly referred to by this title, is the one which depicts the boy in a melancholic seated pose with his elbow on a table and his head cradled in his hand. It is currently held in Zürich, Switzerland. The other three portraits, of different poses, are in museums in the US",
     "artist": {
-      "image": "/images/the-boy-in-the-red-vest/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-boy-in-the-red-vest%2Fartist.jpg?alt=media&token=1bacf5b1-fb78-4d68-b3a0-bcd6addb7b9e",
       "name": "Paul Cézanne"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-boy-in-the-red-vest%2Fmusic.mp3?alt=media&token=758e5cdd-992d-46d3-b9ee-73feaa260868",
     "images": {
-      "thumbnail": "/images/the-boy-in-the-red-vest/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-boy-in-the-red-vest/hero-small.jpg",
-        "large": "/images/the-boy-in-the-red-vest/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-boy-in-the-red-vest%2Fhero-large.jpg?alt=media&token=acfc6800-7add-4185-bc66-2954d84cbf3e"
       },
-      "gallery": "/images/the-boy-in-the-red-vest/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-boy-in-the-red-vest%2Fgallery.jpg?alt=media&token=59e4d621-91af-4b98-b54e-4468ae02f9bc"
     }
   },
   {
@@ -221,16 +209,15 @@
     "year": 1434,
     "description": "It is considered one of the most original and complex paintings in Western art, because of its beauty, complex iconography, geometric orthogonal perspective, and expansion of the picture space with the use of a mirror. According to Ernst Gombrich \"in its own way it was as new and revolutionary as Donatello's or Masaccio's work in Italy. A simple corner of the real world had suddenly been fixed on to a panel as if by magic ... For the first time in history the artist became the perfect eye-witness in the truest sense of the term\".",
     "artist": {
-      "image": "/images/arnolfini-portrait/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/arnolfini-portrait%2Fartist.jpg?alt=media&token=540070c8-c122-4beb-b1eb-73caa3715375",
       "name": "Jan van Eyck"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/arnolfini-portrait%2Fmusic.mp3?alt=media&token=d9032186-abb2-41fe-b769-774bbf2429ba",
     "images": {
-      "thumbnail": "/images/arnolfini-portrait/thumbnail.jpg",
       "hero": {
-        "small": "/images/arnolfini-portrait/hero-small.jpg",
-        "large": "/images/arnolfini-portrait/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/arnolfini-portrait%2Fhero-large.jpg?alt=media&token=2c741f98-e3c2-4bab-ad68-000024ddf2ac"
       },
-      "gallery": "/images/arnolfini-portrait/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/arnolfini-portrait%2Fgallery.jpg?alt=media&token=21ad4644-b05c-4334-8896-362f0e14ab09"
     }
   },
   {
@@ -239,16 +226,15 @@
     "year": 1503,
     "description": "The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la dʒoˈkonda] or Monna Lisa [ˈmɔnna ˈliːza]) is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as \"the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world\". The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism.",
     "artist": {
-      "image": "/images/mona-lisa/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/mona-lisa%2Fartist.jpg?alt=media&token=c8725783-1673-44e8-a561-7eee8164a9dd",
       "name": "Leonardo da Vinci"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/mona-lisa%2Fmusic.mp3?alt=media&token=3ae46fc0-336c-46ab-a238-ba9c2735cdd6",
     "images": {
-      "thumbnail": "/images/mona-lisa/thumbnail.jpg",
       "hero": {
-        "small": "/images/mona-lisa/hero-small.jpg",
-        "large": "/images/mona-lisa/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/mona-lisa%2Fhero-large.jpg?alt=media&token=825df34c-e7d6-4d99-84ea-d517d88a3831"
       },
-      "gallery": "/images/mona-lisa/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/mona-lisa%2Fgallery.jpg?alt=media&token=dac0cfa1-de5d-4128-967c-0ade7a3c3c59"
     }
   },
   {
@@ -257,16 +243,15 @@
     "year": 1767,
     "description": "The painting depicts an elegant young woman on a swing. A smiling young man, hiding in the bushes on the left, watches her from a vantage point that allows him to see up into her billowing dress, where his arm is pointed with hat in hand. A smiling older man, who is nearly hidden in the shadows on the right, propels the swing with a pair of ropes. The older man appears to be unaware of the young man. As the young lady swings high, she throws her left leg up, allowing her dainty shoe to fly through the air.",
     "artist": {
-      "image": "/images/the-swing/artist.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-swing%2Fartist.jpg?alt=media&token=af5c2372-e1d9-4e21-82f9-934381c07120",
       "name": "Jean-Honoré Fragonard"
     },
+    "music": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-swing%2Fmusic.mp3?alt=media&token=e403bde5-2766-4b00-8be8-47fc103f7336",
     "images": {
-      "thumbnail": "/images/the-swing/thumbnail.jpg",
       "hero": {
-        "small": "/images/the-swing/hero-small.jpg",
-        "large": "/images/the-swing/hero-large.jpg"
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-swing%2Fhero-large.jpg?alt=media&token=20eeeb72-7391-408e-853e-6ca29fb8e958"
       },
-      "gallery": "/images/the-swing/gallery.jpg"
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-swing%2Fgallery.jpg?alt=media&token=ddef3bfa-10a4-4003-9c64-d1fd10007fdb"
     }
   }
 ]

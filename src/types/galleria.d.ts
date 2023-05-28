@@ -10,6 +10,7 @@ export interface DetailGallery {
   id: number
   name: string
   year: number
+  music: string
   source: string
   artist: Artist
   images: Images
@@ -17,7 +18,6 @@ export interface DetailGallery {
 }
 
 type Hero = {
-  small: string
   large: string
 }
 
