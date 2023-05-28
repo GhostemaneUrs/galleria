@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useRouter } from 'next/router'
 import { IconContext } from 'react-icons'
 import { DetailGallery } from '@/type/galleria'
@@ -18,10 +18,6 @@ export async function getServerSideProps(
   context: GetServerSidePropsContext
 ): Promise<{ props: { gallery: DetailGallery } }> {
   const id = context.params?.id
-
-  if (id === null) {
-    throw new Error('Id not found in URL parameters')
-  }
 
   const response = await fetch(`${URL_GATEWAY}/api/gallery?id=${String(id)}`, {
     method: 'GET',
@@ -42,7 +38,8 @@ export async function getServerSideProps(
 const Show = ({ gallery }: { gallery: DetailGallery }) => {
   const router = useRouter()
   const { galleries } = useGalleries()
-  const [isPlaying, setIsPlaying] = useState<boolean>(false)
+  const audioRef = useRef<HTMLAudioElement>(null)
+  const [isPlaying, setIsPlaying] = useState(true)
 
   const handleNextPage = () => {
     const currentId = Number(router.query.id) || 1
@@ -77,9 +74,9 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
           >
             <div className='w-full flex flex-col lg:flex-row relative xl:max-w-[720px] h-auto'>
               <Image
+                priority
                 width={600}
                 height={600}
-                priority={false}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
                 className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[390px] 2xl:max-w-[470px]'
@@ -94,6 +91,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                   </span>
                 </div>
                 <Image
+                  priority
                   width={80}
                   height={80}
                   alt={gallery?.artist?.name}
@@ -119,6 +117,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
               </div>
               <div className='w-full max-w-[128px] absolute hidden lg:flex right-0 xl:-bottom-[10px] 2xl:-bottom-[20px] xl:right-[190px] 2xl:right-[110px]'>
                 <Image
+                  priority
                   width={128}
                   height={128}
                   alt={gallery?.artist?.name}
@@ -139,6 +138,9 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 </p>
               </div>
             </div>
+            <audio ref={audioRef} autoPlay loop>
+              <source src={gallery?.music} type='audio/mp3' />
+            </audio>
           </motion.div>
         </AnimatePresence>
       </div>
@@ -164,14 +166,16 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
             {isPlaying ? (
               <FiPauseCircle
                 onClick={() => {
-                  setIsPlaying(!isPlaying)
+                  audioRef?.current?.pause()
+                  setIsPlaying(false)
                 }}
                 className='text-[#D8D8D8] cursor-pointer'
               />
             ) : (
               <FiPlayCircle
                 onClick={() => {
-                  setIsPlaying(!isPlaying)
+                  audioRef?.current?.play()
+                  setIsPlaying(true)
                 }}
                 className='hover:text-[#D8D8D8] cursor-pointer'
               />

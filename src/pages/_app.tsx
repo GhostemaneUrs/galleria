@@ -9,8 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Galleria</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta key='desc' name='description' content='Next.js + Tailwind CSS' />
+        <link rel='icon' href='/favicon.svg' />
       </Head>
       <GalleryProvider>
         <Layout>
