@@ -14,7 +14,7 @@ import {
   FiPauseCircle
 } from 'react-icons/fi'
 
-export async function getServerSideProps(
+export async function getStaticProps(
   context: GetServerSidePropsContext
 ): Promise<{ props: { gallery: DetailGallery } }> {
   const id = context.params?.id
@@ -32,6 +32,26 @@ export async function getServerSideProps(
     props: {
       gallery: data
     }
+  }
+}
+
+export async function getStaticPaths() {
+  const response = await fetch(`${URL_GATEWAY}/api/galleries`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+
+  const data = await response.json()
+
+  const paths = data.data.map((gallery: DetailGallery) => ({
+    params: { id: String(gallery.id) }
+  }))
+
+  return {
+    paths,
+    fallback: false
   }
 }
 
