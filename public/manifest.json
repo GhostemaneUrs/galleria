@@ -1,6 +1,7 @@
 {
   "name": "Galleria",
   "short_name": "Galleria",
+  "description": "A simple gallery app",
   "icons": [
     {
       "src": "/icon-128x128.png",
@@ -13,6 +14,7 @@
       "type": "image/png"
     }
   ],
+  "scope": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "start_url": "/",

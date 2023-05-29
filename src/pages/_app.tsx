@@ -3,8 +3,19 @@ import '@/style/globals.scss'
 import type { AppProps } from 'next/app'
 import { Layout } from '@/component/layout'
 import { GalleryProvider } from '@/context/galleries'
+import { useEffect } from 'react'
 
 export default function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = '/public/notification.js'
+    script.async = true
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
   return (
     <>
       <Head>
