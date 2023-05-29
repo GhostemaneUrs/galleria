@@ -4,7 +4,10 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' href='/icon-128x128.png' />
+        <link rel='manifest' href='/manifest.json' />
+        <meta name='theme-color' content='#ffffff' />
+        <link rel='apple-touch-icon' href='/icon-128x128.png' />
         <meta key='desc' name='description' content='Next.js + Tailwind CSS' />
       </Head>
       <body>
