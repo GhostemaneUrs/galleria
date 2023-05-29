@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const script = document.createElement('script')
-    script.src = '/public/notification.js'
+    script.src = '/notification.js'
     script.async = true
     document.body.appendChild(script)
 
