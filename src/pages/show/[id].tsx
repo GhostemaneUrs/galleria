@@ -81,7 +81,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   }
 
   return (
-    <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] '>
+    <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] overflow-x-hidden'>
       <div className='flex-1-auto w-full mb-6 2xl:mb-10 flex justify-center items-center h-full'>
         <AnimatePresence mode='wait'>
           <motion.div
