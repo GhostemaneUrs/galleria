@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className='columns-1 sm:columns-2 lg:columns-3 xl:columns-3 2xl:columns-3 sm:gap-5 mb-10'>
-      {galleries?.data.map((item: Gallery) => {
+      {galleries?.data?.map((item: Gallery) => {
         return (
           <div
             key={item?.id}
