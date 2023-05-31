@@ -253,5 +253,22 @@
       },
       "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/the-swing%2Fgallery.jpg?alt=media&token=ddef3bfa-10a4-4003-9c64-d1fd10007fdb"
     }
+  },
+  {
+    "id": 16,
+    "name": "Canvas of Life",
+    "year": 1889,
+    "description": "Today, on your birthday, one memory stands out in the corner of my mind: our unexpected encounter. That day was like discovering a canvas of beauty and complexity that I had not had the chance to appreciate before, since then, each lived moment has been like a brushstroke adding color and depth. You possess the astonishing ability to transform every instant into a unique piece, full of emotion and meaning, therefore, on this special day that celebrates your existence, my wish is that happiness completely envelops you. I hope that each new day allows you to add a vibrant brushstroke to the wonderful canvas that is your life, happy birthday.",
+    "artist": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/starry-night%2Fartist.jpg?alt=media&token=2e1c0be0-f72b-4639-b57a-6f8cc1b1a0bb",
+      "name": "Vincent Van Gogh"
+    },
+    "music": "",
+    "images": {
+      "hero": {
+        "large": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/isabell%2Fgallery.webp?alt=media&token=0331956d-8d84-4258-ae7b-3fbf0e4380ed&_gl=1*18wpmu8*_ga*MzkxMTY3NTEwLjE2ODE2ODYzNDI.*_ga_CW55HF8NVT*MTY4NTUyMTg2Ny4xNi4xLjE2ODU1MjIwNDguMC4wLjA."
+      },
+      "gallery": "https://firebasestorage.googleapis.com/v0/b/galleria-e9b71.appspot.com/o/isabell%2Fgallery.webp?alt=media&token=0331956d-8d84-4258-ae7b-3fbf0e4380ed&_gl=1*18wpmu8*_ga*MzkxMTY3NTEwLjE2ODE2ODYzNDI.*_ga_CW55HF8NVT*MTY4NTUyMTg2Ny4xNi4xLjE2ODU1MjIwNDguMC4wLjA."
+    }
   }
 ]
