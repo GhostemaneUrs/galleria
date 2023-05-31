@@ -59,7 +59,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   const router = useRouter()
   const { galleries } = useGalleries()
   const audioRef = useRef<HTMLAudioElement>(null)
-  const [isPlaying, setIsPlaying] = useState(true)
+  const [isPlaying, setIsPlaying] = useState(false)
 
   const handleNextPage = () => {
     const currentId = Number(router.query.id) || 1
@@ -81,7 +81,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
   }
 
   return (
-    <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] overflow-x-hidden'>
+    <div className='w-full flex flex-col h-full lg:h-[calc(100vh-94px)] '>
       <div className='flex-1-auto w-full mb-6 2xl:mb-10 flex justify-center items-center h-full'>
         <AnimatePresence mode='wait'>
           <motion.div
@@ -89,7 +89,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
             exit={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            className='w-full h-full flex flex-col justify-center  gap-28 mg:gap-36 lg:gap-20 xl:flex-row xl:gap-0 xl:justify-between xl:items-center'
+            className='w-full h-full flex flex-col justify-center gap-28 mg:gap-36 lg:gap-20 xl:flex-row xl:items-center xl:gap-20 xl:justify-between'
             transition={{ duration: 0.35, ease: 'easeInOut' }}
           >
             <div className='w-full flex flex-col lg:flex-row relative xl:max-w-[720px] h-auto'>
@@ -99,7 +99,7 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
                 height={600}
                 alt={gallery?.name}
                 src={gallery?.images?.hero?.large}
-                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[390px] 2xl:max-w-[470px]'
+                className='w-full max-h-[500px] object-cover md:max-h-[700px] lg:object-cover lg:h-auto lg:max-w-[350px] xl:max-w-[390px] 2xl:max-w-[470px] xl:h-[600px]'
               />
               <div className='flex bg-white w-full max-w-[300px] sm:max-w-[350px] md:max-w-[600px] gap-2 p-4 absolute bottom-[-80px] lg:hidden'>
                 <div className='flex flex-col w-full'>
@@ -147,8 +147,8 @@ const Show = ({ gallery }: { gallery: DetailGallery }) => {
               </div>
             </div>
             <div className='w-full flex lg:hidden xl:flex xl:flex-col justify-center items-start xl:max-w-[450px] gap-2 2xl:gap-8 '>
-              <div className='w-full xl:text-end hidden xl:block'>
-                <span className='text-[150px] xl:text-[180px] 2xl:text-[200px] text-[#F3F3F3] leading-none'>
+              <div className='w-full text-end hidden xl:block'>
+                <span className='text-[150px] xl:text-[180px] text-[#F3F3F3] leading-none'>
                   {gallery?.year}
                 </span>
               </div>
